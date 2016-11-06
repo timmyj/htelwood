@@ -1,13 +1,64 @@
+@font-face {
+    font-family: AvenirLTStd-Heavy;
+    src: url(../font/AvenirLTStd-Heavy.otf);
+}
+
 body, html {
-  font-family: "Lucida Grande CY","Lucida Grande","Lucida Sans",Helvetica,Arial,sans-serif;
-  font-size: 0.9em;
+  font-family: AvenirLTStd-Heavy;
   padding: 0;
   margin: 0;
+  color: #fff;
   background-color: #000;
+}
+
+#menu-container {
+    display: block;
+    padding-top:15px;
+    padding-bottom:10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    width: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    width: 250px;
+}
+
+#menu {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align:center;
+}
+
+#logo-container {
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: auto;
 }
 
 #container {
   background: #000;
   position: relative;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom:50px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
