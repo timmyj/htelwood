@@ -1,0 +1,13 @@
+body, html {
+  font-family: "Lucida Grande CY","Lucida Grande","Lucida Sans",Helvetica,Arial,sans-serif;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+}
+
+#container {
+  background: #000;
+  position: relative;
+}
+
