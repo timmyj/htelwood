@@ -136,7 +136,7 @@ img:hover {
 }
 
 #mobile-footer {
-    position:absolute;
+    position:fixed;
     bottom: 5px;
     left: 0;
     right: 0;
