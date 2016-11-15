@@ -3,6 +3,24 @@
     src: url(../font/AvenirLTStd-Heavy.otf);
 }
 
+@media screen and (max-width: 480px) {
+    #footer {
+        display: none;
+    }
+    #mobile-footer {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    #footer {
+        display: block;
+    }
+    #mobile-footer {
+        display: none;
+    }
+}
+
 body, html {
   font-family: AvenirLTStd-Heavy;
   padding: 0;
@@ -76,7 +94,6 @@ img:hover {
 }
 
 #footer {
-    display:block;
     position:absolute;
     bottom: 35px;
     left: 0;
@@ -89,5 +106,20 @@ img:hover {
     margin-right:auto;
     font-weight: lighter;
 }
+
+#mobile-footer {
+    position:absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: lighter;
+}
+
 
 
