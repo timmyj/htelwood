@@ -7,8 +7,14 @@
     #footer {
         display: none;
     }
-    #mobile-footer {
+    #menu-container {
+        display: none;
+    }
+    #menu-container-mobile {
         display: block;
+    }
+    #menu-container {
+        display: none;
     }
 }
 
@@ -19,6 +25,12 @@
     #mobile-footer {
         display: none;
     }
+    #menu-container-mobile {
+        display: none;
+    }
+    #mobile-footer {
+        display: block;
+    }
 }
 
 body, html {
@@ -27,6 +39,22 @@ body, html {
   margin: 0;
   color: #fff;
   background-color: #000;
+}
+
+#menu-container-mobile {
+    position:inherit;
+    top: 5px;
+    left: 0;
+    right: 0;
+    padding-top:15px;
+    padding-bottom:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    width: 250px;
 }
 
 #menu-container {
@@ -109,7 +137,7 @@ img:hover {
 
 #mobile-footer {
     position:absolute;
-    bottom: 35px;
+    bottom: 5px;
     left: 0;
     right: 0;
     font-size: 15px;
