@@ -28,7 +28,7 @@
     #menu-container-mobile {
         display: none;
     }
-    #mobile-footer {
+    #menu-container {
         display: block;
     }
 }
@@ -136,7 +136,7 @@ img:hover {
 }
 
 #mobile-footer {
-    position:fixed;
+    position: fixed;
     bottom: 5px;
     left: 0;
     right: 0;
