@@ -13,10 +13,29 @@
   <!--[if lt IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jQueryRotate.js"></script>
 
 </head>
 
 <body>
+      <script>
+ $document.ready(function(){
+   
+  $("#img").rotate({
+  bind:
+  {
+    mouseover : function() {
+    $(this).rotate({animateTo:180})
+  },
+  mouseout : function() {
+    $(this).rotate({animateTo:0})
+    }
+  }
+
+});
+     });
+</script>
 <div id="container">
     <div id="menu-container">
        <a href="./pdf/Heads%20&%20Tails%20-%20Take%20Away%20Menu.pdf" target="_blank">
@@ -34,14 +53,14 @@
                 </a>
             </div>
     <div id="footer">
-        <a href="https://www.google.com/maps?daddr=112+Ormond+Road+Elwood+VIC+3184+Australia">112 Ormond Rd Elwood 3184</a> • <a href="tel:+61395310002">Telephone (03) 9531 0002</a>
+        <a href="https://maps.google.com/maps?daddr=112+Ormond+Road+Elwood+VIC+3184+Australia">112 Ormond Rd Elwood 3184</a> • <a href="tel:+61395310002">Telephone (03) 9531 0002</a>
     </div>
         <div id="mobile-footer">
-        <a href="https://www.google.com/maps?daddr=112+Ormond+Road+Elwood+VIC+3184+Australia">112 Ormond Rd Elwood 3184</a> <br/> <a href="tel:+61395310002">Telephone (03) 9531 0002</a>
+        <a href="https://maps.google.com/maps?daddr=112+Ormond+Road+Elwood+VIC+3184+Australia">112 Ormond Rd Elwood 3184</a> <br/> <a href="tel:+61395310002">Telephone (03) 9531 0002</a>
         </div>
 </div>
 
-    <script src="js/jquery.min.js"></script>
+
 </body>
 
 </html>
