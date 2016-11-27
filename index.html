@@ -15,23 +15,7 @@
   <![endif]-->
   <script src="js/jquery.min.js"></script>
   <script src="js/jQueryRotate.js"></script>
-      <script>
- $document.ready(function(){
-   
-  $("#image").rotate({
-  bind:
-  {
-    mouseover : function() {
-    $(this).rotate({animateTo:180})
-  },
-  mouseout : function() {
-    $(this).rotate({animateTo:0})
-    }
-  }
 
-});
-     });
-</script>
 </head>
 
 <body>
@@ -62,5 +46,18 @@
 
 
 </body>
+      <script>
+     $("#image").rotate({
+  bind:
+  {
+    mouseover : function() {
+    $(this).rotate({animateTo:45})
+  },
+  mouseout : function() {
+    $(this).rotate({animateTo:0})
+    }
+  }
 
+});
+</script>
 </html>
