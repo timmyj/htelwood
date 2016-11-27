@@ -48,13 +48,24 @@
 </body>
       <script>
      $("#image").rotate({
-  bind:
-  {
-    mouseover : function() {
-    $(this).rotate({animateTo:45})
-  },
-  mouseout : function() {
-    $(this).rotate({animateTo:0})
+  bind: {
+    mouseover: function(){
+      $("#image").rotate({
+        animateTo: 45,
+        duration: 1000
+      });
+    },
+    mouseout: function(){
+      $("#image").rotate({
+        animateTo: 0,
+        duration: 1000
+      });
+    },
+    click: function(){
+        $("#image").rotate({
+        animateTo: 0,
+        duration: 1000
+      });
     }
   }
 
