@@ -88,6 +88,16 @@ a:hover, a:active { text-decoration: none; color: #fff}
     display:block;
 }
 
+#menu-mobile {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align:center;
+    font-weight: lighter;
+    display:block;
+}
+
+
 #logo-container {
     position: absolute;
     max-width: 400px;
